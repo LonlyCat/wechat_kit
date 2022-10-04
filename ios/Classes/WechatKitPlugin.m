@@ -1,10 +1,10 @@
 #import "WechatKitPlugin.h"
 #ifdef NO_PAY
-#import <WXApi.h>
-#import <WechatAuthSDK.h>
+#import "WXApi.h"
+#import "WechatAuthSDK.h"
 #else
-#import <WXApi.h>
-#import <WechatAuthSDK.h>
+#import "WXApi.h"
+#import "WechatAuthSDK.h"
 #endif
 
 typedef void (^WechatKitWXReqRunnable)(void);
